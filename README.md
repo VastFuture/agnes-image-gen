@@ -4,6 +4,24 @@ Agnes Image 2.1 Flash 图像生成 skill，支持文生图、图生图和多图�
 
 官方文档：https://www.agnes-ai.com/
 
+## 示例
+
+文生图（2K / 16:9）：
+
+```
+A luminous floating city above a misty canyon at sunrise, cinematic realism, golden light, high detail
+```
+
+![文生图示例 - 浮空城市](assets/example-float-city.png)
+
+图生图（构图保留改色）：
+
+```
+Make the object orange while preserving the original composition
+```
+
+![图生图示例 - 玻璃立方体改色](assets/example-img2img-orange.png)
+
 ## 结构
 
 ```
