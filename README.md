@@ -6,7 +6,9 @@ Agnes Image 2.1 Flash 图像生成 skill，支持文生图、图生图和多图�
 
 ## 示例
 
-文生图（2K / 16:9）：
+### 文生图
+
+**浮空城市**（2K / 16:9）：
 
 ```
 A luminous floating city above a misty canyon at sunrise, cinematic realism, golden light, high detail
@@ -14,7 +16,41 @@ A luminous floating city above a misty canyon at sunrise, cinematic realism, gol
 
 ![文生图示例 - 浮空城市](assets/example-float-city.png)
 
-图生图（构图保留改色）：
+**VR 头显爆炸视图海报**（2K / 16:9）：
+
+```
+Vertical exploded view of a Meta Quest 3 VR headset, 9 stacked layers of internal components: outer shell, camera sensors, mainboard with chip, Pancake lenses, internal frame, battery pack, side straps, top head strap, facial interface pad. Clean high-tech 3D render, studio lighting, glowing accents, soft purple-blue gradient background, commercial poster layout
+```
+
+![文生图示例 - VR 头显爆炸视图](assets/example-quest3-exploded-view.png)
+
+**成都吃货暴走地图**（2K / 16:9）：
+
+```
+Hand-drawn tourist map infographic of Chengdu on aged parchment, watercolor and ink illustration, vintage style, landmarks and food spots, giant panda centerpiece, retro compass, high visual density
+```
+
+![文生图示例 - 成都美食地图](assets/example-chengdu-food-map.png)
+
+**超市抓拍人像**（2K / 9:16 竖版）：
+
+```
+Vertical candid photo on smartphone, young adult woman shopping in modern supermarket at night, showing an open egg carton toward camera, face blurred, realistic photography, shallow depth of field, fashion lifestyle aesthetic
+```
+
+![文生图示例 - 超市抓拍](assets/example-supermarket-candid.png)
+
+**Instagram 信息图**（2K / 1:1）：
+
+```
+Instagram infographic about how advertisers exploit cognitive biases, high information density, modern flat design, grid layout, numbered sections with icons, professional marketing design
+```
+
+![文生图示例 - 认知偏差信息图](assets/example-cognitive-bias-infographic.png)
+
+### 图生图
+
+**构图保留改色**（1K / 1:1）：
 
 ```
 Make the object orange while preserving the original composition
@@ -33,8 +69,12 @@ agnes-image-gen/
 │   ├── prompt-guide.md         # 提示词结构指南
 │   └── example-test-log.md     # 实测示例与验证结果
 └── assets/
-    ├── example-float-city.png      # 文生图示例（2K/16:9）
-    └── example-img2img-orange.png  # 图生图示例（构图保留改色）
+    ├── example-float-city.png               # 文生图示例（2K/16:9 浮空城市）
+    ├── example-quest3-exploded-view.png     # 文生图示例（2K/16:9 VR 爆炸视图）
+    ├── example-chengdu-food-map.png         # 文生图示例（2K/16:9 成都美食地图）
+    ├── example-supermarket-candid.png       # 文生图示例（2K/9:16 超市抓拍）
+    ├── example-cognitive-bias-infographic.png  # 文生图示例（2K/1:1 信息图）
+    └── example-img2img-orange.png           # 图生图示例（构图保留改色）
 ```
 
 ## 环境要求
